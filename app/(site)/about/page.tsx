@@ -20,7 +20,7 @@ export default function AboutPage() {
         <div className="pill-tag justify-center mb-4">
           <span className="pill-tag-icon">
             <img
-              src="/assets/images/Mkurugenzi – Merch/black-1-of-1-150x150.png"
+              src="/assets/images/Mkurugenzi-Merch/black-1-of-1-150x150.png"
               alt="Mkurugenzi logo"
               className="w-5 h-5 object-contain brightness-0 invert"
             />
@@ -42,7 +42,7 @@ export default function AboutPage() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
           <motion.div {...fadeUp} className="relative rounded-3xl overflow-hidden min-h-[480px] bg-[#f0f0f1]">
             <img
-              src="/assets/images/Mkurugenzi – Merch/12.png"
+              src="/assets/images/Mkurugenzi-Merch/12.png"
               alt="Mkurugenzi Craftsmanship"
               className="absolute inset-0 w-full h-full object-cover"
             />
@@ -72,7 +72,7 @@ export default function AboutPage() {
           <div className="pill-tag justify-center mb-6">
             <span className="pill-tag-icon">
               <img
-                src="/assets/images/Mkurugenzi – Merch/black-1-of-1-150x150.png"
+                src="/assets/images/Mkurugenzi-Merch/black-1-of-1-150x150.png"
                 alt="Mkurugenzi logo"
                 className="w-5 h-5 object-contain brightness-0 invert"
               />

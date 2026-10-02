@@ -51,7 +51,7 @@ export const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 py-16">
           <div>
             <img
-              src="/assets/images/Mkurugenzi – Merch/black-1-of-1-300x300.png"
+              src="/assets/images/Mkurugenzi-Merch/black-1-of-1-300x300.png"
               alt="Mkurugenzi logo"
               className="h-16 w-16 object-contain brightness-0 invert"
             />

@@ -1,5 +1,11 @@
 /** @type {import('next').NextConfig} */
 
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+/** The project root, so Next stops guessing and warning on every dev boot. */
+const projectRoot = path.dirname(fileURLToPath(import.meta.url));
+
 const isDev = process.env.NODE_ENV !== 'production';
 
 /**
@@ -49,6 +55,9 @@ const nextConfig = {
   // mysql2 must stay a real Node require on the server; bundling it breaks on
   // cPanel shared hosting where native builds are unavailable.
   serverExternalPackages: ['mysql2'],
+  // Stops "Next.js inferred your workspace root" on every dev boot, which is
+  // noise in the terminal during a presentation.
+  outputFileTracingRoot: projectRoot,
   async headers() {
     return [{ source: '/:path*', headers: securityHeaders }];
   },

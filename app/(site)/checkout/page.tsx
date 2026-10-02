@@ -240,7 +240,7 @@ export default function CheckoutPage() {
           <div className="bg-[#f0f0f1] rounded-3xl p-8 sm:p-10">
             <div className="flex items-center justify-between pb-6 border-b border-black/10">
               <img
-                src="/assets/images/Mkurugenzi – Merch/black-1-of-1-300x300.png"
+                src="/assets/images/Mkurugenzi-Merch/black-1-of-1-300x300.png"
                 alt="Mkurugenzi logo"
                 className="h-12 w-12 object-contain"
               />
@@ -370,7 +370,7 @@ export default function CheckoutPage() {
         <div className="pill-tag justify-center mb-2">
           <span className="pill-tag-icon">
             <img
-              src="/assets/images/Mkurugenzi – Merch/black-1-of-1-150x150.png"
+              src="/assets/images/Mkurugenzi-Merch/black-1-of-1-150x150.png"
               alt="Mkurugenzi logo"
               className="w-5 h-5 object-contain brightness-0 invert"
             />

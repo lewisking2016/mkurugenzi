@@ -13,7 +13,9 @@
     "typecheck": "tsc --noEmit",
     "db:setup": "tsx scripts/setup-db.ts",
     "db:check": "tsx scripts/check-db.ts",
-    "preflight": "tsx scripts/preflight.ts"
+    "preflight": "tsx scripts/preflight.ts",
+    "demo:reset": "tsx scripts/demo.ts",
+    "demo": "tsx scripts/demo.ts && next dev -p 3437"
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.3.3",

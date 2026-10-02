@@ -54,7 +54,7 @@ export const Navbar: React.FC = () => {
           {/* Brand */}
           <Link href="/" className="flex items-center gap-2.5 group justify-self-start">
             <img
-              src="/assets/images/Mkurugenzi – Merch/black-1-of-1-300x300.png"
+              src="/assets/images/Mkurugenzi-Merch/black-1-of-1-300x300.png"
               alt="Mkurugenzi logo"
               className="h-16 w-16 object-contain transition-transform duration-300 group-hover:scale-105"
             />
@@ -151,7 +151,7 @@ export const Navbar: React.FC = () => {
           >
             <div className="flex items-center justify-between pb-6">
               <img
-                src="/assets/images/Mkurugenzi – Merch/black-1-of-1-100x100.png"
+                src="/assets/images/Mkurugenzi-Merch/black-1-of-1-100x100.png"
                 alt="Mkurugenzi logo"
                 className="h-9 w-9 object-contain"
               />

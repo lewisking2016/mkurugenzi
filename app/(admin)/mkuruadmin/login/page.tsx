@@ -57,7 +57,7 @@ function LoginForm() {
         <div className="w-full max-w-sm">
           <div className="flex flex-col items-center text-center mb-8">
             <img
-              src="/assets/images/Mkurugenzi – Merch/black-1-of-1-150x150.png"
+              src="/assets/images/Mkurugenzi-Merch/black-1-of-1-150x150.png"
               alt="Mkurugenzi"
               className="h-12 w-12 object-contain mb-4"
             />

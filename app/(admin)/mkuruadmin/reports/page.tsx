@@ -241,7 +241,7 @@ export default function AdminReportsPage() {
         <StatCard
           label="Awaiting payment"
           value={KES(stats.awaitingTotal)}
-          sub={`${stats.awaiting} orders to chase`}
+          sub={`${stats.awaiting} ${stats.awaiting === 1 ? 'order' : 'orders'} to chase`}
           icon={Clock}
         />
       </div>
@@ -389,7 +389,9 @@ export default function AdminReportsPage() {
         <div className="rounded-2xl bg-[#f0f0f1] p-6 flex items-start gap-4">
           <AlertTriangle className="w-5 h-5 shrink-0 mt-0.5" />
           <div>
-            <p className="font-semibold">{stats.awaiting} orders are still awaiting payment</p>
+            <p className="font-semibold">
+              {stats.awaiting} {stats.awaiting === 1 ? 'order is' : 'orders are'} still awaiting payment
+            </p>
             <p className="text-sm text-black/50 mt-1">
               Worth {KES(stats.awaitingTotal)}. Match each one against its M-Pesa confirmation code on the
               Orders screen, or chase the customer on WhatsApp.

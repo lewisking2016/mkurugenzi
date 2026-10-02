@@ -28,11 +28,11 @@ const fadeUp = {
 
 const HERO_SLIDES = [
   {
-    src: '/assets/images/Mkurugenzi – Merch/9.png',
+    src: '/assets/images/Mkurugenzi-Merch/9.png',
     alt: 'Mkurugenzi campaign — collection hero',
   },
   {
-    src: '/assets/images/Mkurugenzi – Merch/3.png',
+    src: '/assets/images/Mkurugenzi-Merch/3.png',
     alt: 'Mkurugenzi campaign — sweatsuit hero',
   },
 ];
@@ -161,7 +161,7 @@ export default function HomePage() {
             loop
             playsInline
             preload="auto"
-            poster="/assets/images/Mkurugenzi – Merch/12.png"
+            poster="/assets/images/Mkurugenzi-Merch/12.png"
             className="absolute inset-0 w-full h-full object-cover"
           >
             <source src="/assets/videos/mkuru-v1 .mp4" type="video/mp4" />
@@ -178,7 +178,7 @@ export default function HomePage() {
           <div className="absolute left-8 top-8 z-20 pill-tag">
             <span className="pill-tag-icon">
               <img
-                src="/assets/images/Mkurugenzi – Merch/black-1-of-1-150x150.png"
+                src="/assets/images/Mkurugenzi-Merch/black-1-of-1-150x150.png"
                 alt="Mkurugenzi logo"
                 className="w-5 h-5 object-contain brightness-0 invert"
               />
@@ -215,7 +215,7 @@ export default function HomePage() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
           <motion.div {...fadeUp} className="relative rounded-3xl overflow-hidden min-h-[480px] bg-[#f0f0f1]">
             <img
-              src="/assets/images/Mkurugenzi – Merch/87047815-30b6-46c8-881f-30520e5d72ea-1-550x660.png"
+              src="/assets/images/Mkurugenzi-Merch/87047815-30b6-46c8-881f-30520e5d72ea-1-550x660.png"
               alt="Mkurugenzi campaign"
               className="absolute inset-0 w-full h-full object-cover"
             />
@@ -228,7 +228,7 @@ export default function HomePage() {
             <div className="pill-tag mb-8 self-start">
               <span className="pill-tag-icon">
                 <img
-                  src="/assets/images/Mkurugenzi – Merch/black-1-of-1-150x150.png"
+                  src="/assets/images/Mkurugenzi-Merch/black-1-of-1-150x150.png"
                   alt="Mkurugenzi logo"
                   className="w-5 h-5 object-contain brightness-0 invert"
                 />
@@ -274,7 +274,7 @@ export default function HomePage() {
               desc: 'Upgrade your daily look with our crafted pieces made from the finest fabrics for lasting comfort and timeless style.',
               from: 'KES 2,500',
               to: 'KES 6,500',
-              img: '/assets/images/Mkurugenzi – Merch/458-550x660.jpg',
+              img: '/assets/images/Mkurugenzi-Merch/458-550x660.jpg',
               cat: 'gents',
             },
             {
@@ -284,7 +284,7 @@ export default function HomePage() {
               desc: 'Elevate your style with our signature soft pieces designed to make every single day feel truly fresh and special.',
               from: 'KES 6,750',
               to: 'KES 6,750',
-              img: '/assets/images/Mkurugenzi – Merch/512-550x660.jpg',
+              img: '/assets/images/Mkurugenzi-Merch/512-550x660.jpg',
               cat: 'ladies',
             },
             {
@@ -294,7 +294,7 @@ export default function HomePage() {
               desc: 'Provide the finishing touch with heavy canvas totes, ribbed socks, beanies and signature daily carry essentials.',
               from: 'KES 850',
               to: 'KES 2,500',
-              img: '/assets/images/Mkurugenzi – Merch/Socks-pair-550x660.png',
+              img: '/assets/images/Mkurugenzi-Merch/Socks-pair-550x660.png',
               cat: 'accessories',
             },
           ].map((c, i) => (
@@ -404,8 +404,8 @@ export default function HomePage() {
               desc: 'Designed to feel natural on the body throughout long, active days.',
               tags: ['All-day wear', 'Comfort', 'Relaxed fit'],
               imgs: [
-                '/assets/images/Mkurugenzi – Merch/Beige-Tshirt-600x750.webp',
-                '/assets/images/Mkurugenzi – Merch/Burgundy-Tshirt-600x750.webp',
+                '/assets/images/Mkurugenzi-Merch/Beige-Tshirt-600x750.webp',
+                '/assets/images/Mkurugenzi-Merch/Burgundy-Tshirt-600x750.webp',
               ],
             },
             {
@@ -413,8 +413,8 @@ export default function HomePage() {
               desc: 'Contemporary shapes balance structure & ease for confident everyday styling.',
               tags: ['Balanced fit', 'Modern', 'Structured'],
               imgs: [
-                '/assets/images/Mkurugenzi – Merch/476-550x660.jpg',
-                '/assets/images/Mkurugenzi – Merch/512-550x660.jpg',
+                '/assets/images/Mkurugenzi-Merch/476-550x660.jpg',
+                '/assets/images/Mkurugenzi-Merch/512-550x660.jpg',
               ],
             },
             {
@@ -422,8 +422,8 @@ export default function HomePage() {
               desc: 'Pieces work together naturally, making daily outfit choices simple & intuitive.',
               tags: ['Versatile', 'Easy to style', 'Layered'],
               imgs: [
-                '/assets/images/Mkurugenzi – Merch/White-tshirt-600x750.webp',
-                '/assets/images/Mkurugenzi – Merch/Beige-Tshirt.webp',
+                '/assets/images/Mkurugenzi-Merch/White-tshirt-600x750.webp',
+                '/assets/images/Mkurugenzi-Merch/Beige-Tshirt.webp',
               ],
             },
             {
@@ -431,8 +431,8 @@ export default function HomePage() {
               desc: 'Core clothing pieces designed for frequent wear across modern everyday routines.',
               tags: ['Core pieces', 'Everyday', 'Wearable'],
               imgs: [
-                '/assets/images/Mkurugenzi – Merch/black-tshirt-2-600x750.webp',
-                '/assets/images/Mkurugenzi – Merch/12.png',
+                '/assets/images/Mkurugenzi-Merch/black-tshirt-2-600x750.webp',
+                '/assets/images/Mkurugenzi-Merch/12.png',
               ],
             },
             {
@@ -440,8 +440,8 @@ export default function HomePage() {
               desc: 'Design decisions focused on comfort, fit, and real-life wearability.',
               tags: ['Practical', 'Functional', 'Adaptable'],
               imgs: [
-                '/assets/images/Mkurugenzi – Merch/342-550x660.jpg',
-                '/assets/images/Mkurugenzi – Merch/395-550x660.jpg',
+                '/assets/images/Mkurugenzi-Merch/342-550x660.jpg',
+                '/assets/images/Mkurugenzi-Merch/395-550x660.jpg',
               ],
             },
             {
@@ -449,8 +449,8 @@ export default function HomePage() {
               desc: 'Minimal design built to feel natural and timeless, drop after drop.',
               tags: ['Clean lines', 'Minimal', 'Timeless'],
               imgs: [
-                '/assets/images/Mkurugenzi – Merch/BlackHoodie-600x750.webp',
-                '/assets/images/Mkurugenzi – Merch/a.png',
+                '/assets/images/Mkurugenzi-Merch/BlackHoodie-600x750.webp',
+                '/assets/images/Mkurugenzi-Merch/a.png',
               ],
             },
           ].map((f, i) => (
@@ -509,7 +509,7 @@ export default function HomePage() {
               desc: 'Build a timeless, comfortable wardrobe with high-quality fabrics, muted tones, and effortless oversized fits.',
               read: '8 min read',
               date: 'Jan 29, 2026',
-              img: '/assets/images/Mkurugenzi – Merch/476-550x660.jpg',
+              img: '/assets/images/Mkurugenzi-Merch/476-550x660.jpg',
               wide: true,
             },
             {
@@ -517,14 +517,14 @@ export default function HomePage() {
               title: 'Elevate everyday outfits using modern minimalist styling',
               read: '8 min read',
               date: '12/30/25',
-              img: '/assets/images/Mkurugenzi – Merch/395-550x660.jpg',
+              img: '/assets/images/Mkurugenzi-Merch/395-550x660.jpg',
             },
             {
               cat: 'Style Guide',
               title: 'Build a capsule wardrobe that works year round',
               read: '5 min read',
               date: '11/22/25',
-              img: '/assets/images/Mkurugenzi – Merch/White-tshirt-600x750.webp',
+              img: '/assets/images/Mkurugenzi-Merch/White-tshirt-600x750.webp',
             },
           ].map((post) => (
             <motion.article
@@ -579,12 +579,12 @@ export default function HomePage() {
         {/* Community image strip */}
         <div className="grid grid-cols-3 sm:grid-cols-6 gap-4">
           {[
-            '/assets/images/Mkurugenzi – Merch/122-1-1-550x660.jpg',
-            '/assets/images/Mkurugenzi – Merch/237-1-550x660.jpg',
-            '/assets/images/Mkurugenzi – Merch/290-550x660.jpg',
-            '/assets/images/Mkurugenzi – Merch/309-550x660.jpg',
-            '/assets/images/Mkurugenzi – Merch/342-550x660.jpg',
-            '/assets/images/Mkurugenzi – Merch/395-550x660.jpg',
+            '/assets/images/Mkurugenzi-Merch/122-1-1-550x660.jpg',
+            '/assets/images/Mkurugenzi-Merch/237-1-550x660.jpg',
+            '/assets/images/Mkurugenzi-Merch/290-550x660.jpg',
+            '/assets/images/Mkurugenzi-Merch/309-550x660.jpg',
+            '/assets/images/Mkurugenzi-Merch/342-550x660.jpg',
+            '/assets/images/Mkurugenzi-Merch/395-550x660.jpg',
           ].map((img, i) => (
             <motion.div
               key={img}

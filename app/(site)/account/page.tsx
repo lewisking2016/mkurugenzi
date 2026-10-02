@@ -25,7 +25,7 @@ export default function AccountPage() {
           <div className="pill-tag justify-center mb-2">
             <span className="pill-tag-icon">
               <img
-                src="/assets/images/Mkurugenzi – Merch/black-1-of-1-150x150.png"
+                src="/assets/images/Mkurugenzi-Merch/black-1-of-1-150x150.png"
                 alt="Mkurugenzi logo"
                 className="w-5 h-5 object-contain brightness-0 invert"
               />
@@ -74,7 +74,7 @@ export default function AccountPage() {
         <div className="pill-tag justify-center mb-2">
           <span className="pill-tag-icon">
             <img
-              src="/assets/images/Mkurugenzi – Merch/black-1-of-1-150x150.png"
+              src="/assets/images/Mkurugenzi-Merch/black-1-of-1-150x150.png"
               alt="Mkurugenzi logo"
               className="w-5 h-5 object-contain brightness-0 invert"
             />

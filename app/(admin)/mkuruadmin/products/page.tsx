@@ -40,7 +40,7 @@ const blankProduct = (): Product => ({
   sold: 0,
   sizes: ['One size'],
   status: 'draft',
-  img: '/assets/images/Mkurugenzi – Merch/black-1-of-1-150x150.png',
+  img: '/assets/images/Mkurugenzi-Merch/black-1-of-1-150x150.png',
   description: '',
 });
 

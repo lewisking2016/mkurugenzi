@@ -67,7 +67,7 @@ function Shell({ children }: { children: React.ReactNode }) {
     <div className="flex flex-col h-full">
       <div className="flex items-center gap-3 px-6 h-16 border-b border-white/10 shrink-0">
         <img
-          src="/assets/images/Mkurugenzi – Merch/black-1-of-1-150x150.png"
+          src="/assets/images/Mkurugenzi-Merch/black-1-of-1-150x150.png"
           alt="Mkurugenzi logo"
           className="h-9 w-9 object-contain brightness-0 invert"
         />
