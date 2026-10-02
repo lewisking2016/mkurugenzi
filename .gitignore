@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+next-env.d.ts
+
+# Production
+build/
+dist/
+
+# Local environment — never commit real credentials
+.env
+.env.local
+.env.development.local
+.env.production.local
+
+# Development fallback database (only used when no MySQL is configured)
+.data/
+
+# Product images uploaded through the admin dashboard
+uploads/
+
+# Duplicate of public/assets/ that sits at the project root. Nothing serves it —
+# every reference in the code is a web path like /assets/... which Next.js
+# resolves out of public/. Keeping it out of the repo halves the clone size that
+# cPanel has to pull. (The local copy can be deleted; public/assets/ is the one
+# that matters.)
+#
+# The leading slash matters: a bare "assets/" would also match public/assets/
+# and silently drop every product image from the repository.
+/assets/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dev.log
+p.log
+
+# Freebuff editor metadata — local to this machine
+.freebuff/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Typescript
+*.tsbuildinfo

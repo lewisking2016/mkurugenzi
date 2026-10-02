@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+  --color-bg: #fafafa;
+  --color-surface: #f4f4f5;
+  --color-text-main: #0d0d0d;
+  --color-text-muted: #6b6b70;
+  --color-border: rgba(0, 0, 0, 0.08);
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text-main);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+/* Wearix-style pill buttons */
+.btn-pill-dark {
+  @apply inline-flex items-center justify-center gap-2 bg-[#0d0d0d] text-white rounded-full px-7 py-3.5 text-sm font-medium hover:bg-[#2a2a2a] transition-colors duration-300;
+}
+.btn-pill-light {
+  @apply inline-flex items-center justify-center gap-2 bg-white text-[#0d0d0d] rounded-full px-7 py-3.5 text-sm font-medium border border-black/10 hover:bg-black/5 transition-colors duration-300;
+}
+
+/* Wearix pill tag/badge */
+.pill-tag {
+  @apply inline-flex items-center gap-2 bg-white rounded-full pl-1.5 pr-4 py-1.5 text-sm text-[#0d0d0d];
+}
+.pill-tag-icon {
+  @apply w-7 h-7 rounded-full bg-[#0d0d0d] text-white flex items-center justify-center flex-shrink-0;
+}
+
+/* Section heading style */
+.section-heading {
+  @apply font-display font-medium tracking-tight text-[#0d0d0d] leading-[1.05];
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  display: flex;
+  width: 200%;
+  animation: marquee 25s linear infinite;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f3;
+}
+::-webkit-scrollbar-thumb {
+  background: #d0d0d5;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0d0d0d;
+}
